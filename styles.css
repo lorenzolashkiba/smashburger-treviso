@@ -1227,7 +1227,57 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .menu-item-image {
-        height: 180px;
+        height: 220px;
+    }
+
+    /* Menu page mobile optimization */
+    .menu-page {
+        padding-top: 60px;
+    }
+
+    .menu-hero {
+        padding: var(--spacing-md) 0;
+    }
+
+    .menu-hero-title {
+        font-size: 1.8rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .menu-hero-desc {
+        font-size: 0.85rem;
+        display: none;
+    }
+
+    .menu-nav {
+        top: 60px;
+    }
+
+    .menu-nav-items {
+        padding: 0.5rem 0;
+        gap: 0.25rem;
+    }
+
+    .menu-nav-item {
+        font-size: 0.7rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .menu-content {
+        padding: var(--spacing-md) 0 var(--spacing-xl);
+    }
+
+    .menu-section-header {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .menu-section-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .menu-section-desc {
+        font-size: 0.8rem;
     }
 
     .footer-content {
