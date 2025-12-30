@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | SmashBurger Treviso</title>
+    <meta name="description" content="Scopri il menu di SmashBurger Treviso. Smash burger artigianali, sides, birre artigianali e molto altro.">
+
+    <!-- Font Industriale -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="menu-page">
+    <!-- Header -->
+    <header class="header header-solid">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍔</span>
+                <span class="logo-text">SMASH<span class="highlight">BURGER</span></span>
+            </a>
+            <nav class="nav">
+                <a href="index.html#chi-siamo">Chi Siamo</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="index.html#contatti">Contatti</a>
+            </nav>
+            <a href="index.html#contatti" class="btn btn-primary">CONTATTACI</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Hero -->
+    <section class="menu-hero">
+        <div class="container">
+            <h1 class="menu-hero-title">IL NOSTRO <span class="highlight">MENU</span></h1>
+            <p class="menu-hero-desc">Burger smashati al momento, preparati con ingredienti freschi e tanta passione</p>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <nav class="menu-nav">
+        <div class="container">
+            <div class="menu-nav-items">
+                <a href="#burgers" class="menu-nav-item active">🍔 Burgers</a>
+                <a href="#sides" class="menu-nav-item">🍟 Sides</a>
+                <a href="#drinks" class="menu-nav-item">🍺 Drinks</a>
+                <a href="#desserts" class="menu-nav-item">🍦 Dolci</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Content -->
+    <main class="menu-content">
+        <div class="container">
+
+            <!-- BURGERS -->
+            <section id="burgers" class="menu-section">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">🍔 SMASH <span class="highlight">BURGERS</span></h2>
+                    <p class="menu-section-desc">Tutti i nostri burger sono serviti con pane brioche artigianale</p>
+                </div>
+
+                <div class="menu-items">
+                    <!-- Classic Smash -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200" alt="Classic Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">CLASSIC SMASH</h3>
+                                <span class="menu-item-price">€9.50</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio smash patty (160g), cheddar americano, cipolla caramellata, pickle, salsa segreta SmashBurger</p>
+                            <div class="menu-item-tags">
+                                <span class="tag">Popular</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bacon Smash -->
+                    <div class="menu-item featured">
+                        <div class="menu-item-badge">BEST SELLER</div>
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=200" alt="Bacon Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">BACON SMASH</h3>
+                                <span class="menu-item-price">€11.50</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio smash patty (160g), bacon croccante affumicato, cheddar, jalapeño freschi, BBQ sauce homemade</p>
+                            <div class="menu-item-tags">
+                                <span class="tag tag-spicy">🌶️ Piccante</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cheese Lover -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=200" alt="Cheese Lover">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">CHEESE LOVER</h3>
+                                <span class="menu-item-price">€10.50</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio smash patty (160g), triplo cheddar, salsa cheese cremosa, cipolla fritta croccante</p>
+                            <div class="menu-item-tags">
+                                <span class="tag">Extra Cheese</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Truffle Smash -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=200" alt="Truffle Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">TRUFFLE SMASH</h3>
+                                <span class="menu-item-price">€13.50</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio smash patty (160g), funghi trifolati, crema al tartufo, scaglie di grana, rucola</p>
+                            <div class="menu-item-tags">
+                                <span class="tag tag-premium">Premium</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BBQ Smash -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=200" alt="BBQ Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">BBQ SMASH</h3>
+                                <span class="menu-item-price">€11.00</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio smash patty (160g), bacon, onion rings, cheddar, BBQ sauce affumicata</p>
+                            <div class="menu-item-tags">
+                                <span class="tag">Smoky</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Veggie Smash -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=200" alt="Veggie Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">VEGGIE SMASH</h3>
+                                <span class="menu-item-price">€10.00</span>
+                            </div>
+                            <p class="menu-item-desc">Doppio patty vegetale smashato, cheddar, pomodoro, lattuga, cipolla rossa, salsa yogurt</p>
+                            <div class="menu-item-tags">
+                                <span class="tag tag-veggie">🌱 Vegetariano</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Smash -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=200" alt="Single Smash">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">SINGLE SMASH</h3>
+                                <span class="menu-item-price">€7.50</span>
+                            </div>
+                            <p class="menu-item-desc">Singolo smash patty (80g), cheddar americano, cipolla, pickle, salsa segreta</p>
+                            <div class="menu-item-tags">
+                                <span class="tag">Light</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra Toppings -->
+                <div class="menu-extras">
+                    <h4>EXTRA TOPPINGS</h4>
+                    <div class="extras-list">
+                        <span class="extra">Bacon +€2.00</span>
+                        <span class="extra">Extra Patty +€3.50</span>
+                        <span class="extra">Cheddar +€1.00</span>
+                        <span class="extra">Jalapeño +€0.50</span>
+                        <span class="extra">Uovo +€1.50</span>
+                        <span class="extra">Avocado +€2.00</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SIDES -->
+            <section id="sides" class="menu-section">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">🍟 <span class="highlight">SIDES</span></h2>
+                    <p class="menu-section-desc">I contorni perfetti per il tuo smash burger</p>
+                </div>
+
+                <div class="menu-items menu-items-small">
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🍟</div>
+                        <div class="menu-item-small-content">
+                            <h3>SMASH FRIES</h3>
+                            <p>Patatine croccanti con salsa cheese e bacon bits</p>
+                        </div>
+                        <span class="menu-item-price">€5.50</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🧅</div>
+                        <div class="menu-item-small-content">
+                            <h3>ONION RINGS</h3>
+                            <p>Anelli di cipolla in pastella croccante</p>
+                        </div>
+                        <span class="menu-item-price">€4.50</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🍟</div>
+                        <div class="menu-item-small-content">
+                            <h3>CLASSIC FRIES</h3>
+                            <p>Patatine fritte classiche</p>
+                        </div>
+                        <span class="menu-item-price">€3.50</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🥗</div>
+                        <div class="menu-item-small-content">
+                            <h3>COLESLAW</h3>
+                            <p>Insalata di cavolo cremosa homemade</p>
+                        </div>
+                        <span class="menu-item-price">€3.00</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🧀</div>
+                        <div class="menu-item-small-content">
+                            <h3>MAC & CHEESE BITES</h3>
+                            <p>Bocconcini di mac & cheese fritti</p>
+                        </div>
+                        <span class="menu-item-price">€5.00</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🌶️</div>
+                        <div class="menu-item-small-content">
+                            <h3>JALAPEÑO POPPERS</h3>
+                            <p>Jalapeño ripieni di cheddar, impanati e fritti</p>
+                        </div>
+                        <span class="menu-item-price">€5.50</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DRINKS -->
+            <section id="drinks" class="menu-section">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">🍺 <span class="highlight">DRINKS</span></h2>
+                    <p class="menu-section-desc">Birre artigianali e bevande selezionate</p>
+                </div>
+
+                <div class="menu-subsection">
+                    <h3 class="menu-subsection-title">BIRRE ARTIGIANALI</h3>
+                    <div class="menu-items menu-items-small">
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🍺</div>
+                            <div class="menu-item-small-content">
+                                <h3>IPA LOCALE</h3>
+                                <p>Birra artigianale veneta 33cl - 6.2%</p>
+                            </div>
+                            <span class="menu-item-price">€5.00</span>
+                        </div>
+
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🍺</div>
+                            <div class="menu-item-small-content">
+                                <h3>LAGER ARTIGIANALE</h3>
+                                <p>Lager leggera e rinfrescante 33cl - 4.8%</p>
+                            </div>
+                            <span class="menu-item-price">€4.50</span>
+                        </div>
+
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🍺</div>
+                            <div class="menu-item-small-content">
+                                <h3>STOUT</h3>
+                                <p>Scura e corposa con note di caffè 33cl - 5.5%</p>
+                            </div>
+                            <span class="menu-item-price">€5.50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-subsection">
+                    <h3 class="menu-subsection-title">SOFT DRINKS</h3>
+                    <div class="menu-items menu-items-small">
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🥤</div>
+                            <div class="menu-item-small-content">
+                                <h3>COCA-COLA / ZERO</h3>
+                                <p>33cl</p>
+                            </div>
+                            <span class="menu-item-price">€3.00</span>
+                        </div>
+
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🍋</div>
+                            <div class="menu-item-small-content">
+                                <h3>LIMONATA HOMEMADE</h3>
+                                <p>Limoni freschi e menta</p>
+                            </div>
+                            <span class="menu-item-price">€4.00</span>
+                        </div>
+
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">🧊</div>
+                            <div class="menu-item-small-content">
+                                <h3>ICE TEA</h3>
+                                <p>Tè freddo alla pesca homemade</p>
+                            </div>
+                            <span class="menu-item-price">€3.50</span>
+                        </div>
+
+                        <div class="menu-item-small">
+                            <div class="menu-item-small-icon">💧</div>
+                            <div class="menu-item-small-content">
+                                <h3>ACQUA</h3>
+                                <p>Naturale o frizzante 50cl</p>
+                            </div>
+                            <span class="menu-item-price">€2.00</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DESSERTS -->
+            <section id="desserts" class="menu-section">
+                <div class="menu-section-header">
+                    <h2 class="menu-section-title">🍦 <span class="highlight">DOLCI</span></h2>
+                    <p class="menu-section-desc">Il finale perfetto</p>
+                </div>
+
+                <div class="menu-items menu-items-small">
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🍦</div>
+                        <div class="menu-item-small-content">
+                            <h3>MILKSHAKE</h3>
+                            <p>Vaniglia, cioccolato o fragola</p>
+                        </div>
+                        <span class="menu-item-price">€5.00</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🍪</div>
+                        <div class="menu-item-small-content">
+                            <h3>COOKIE SUNDAE</h3>
+                            <p>Gelato, cookie caldo, cioccolato fuso</p>
+                        </div>
+                        <span class="menu-item-price">€6.00</span>
+                    </div>
+
+                    <div class="menu-item-small">
+                        <div class="menu-item-small-icon">🍫</div>
+                        <div class="menu-item-small-content">
+                            <h3>BROWNIE</h3>
+                            <p>Brownie caldo con gelato alla vaniglia</p>
+                        </div>
+                        <span class="menu-item-price">€5.50</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Allergens Notice -->
+            <div class="allergens-notice">
+                <p><strong>⚠️ ALLERGENI:</strong> Per informazioni sugli allergeni presenti nei nostri piatti, chiedi al nostro staff. Tutti i nostri burger possono essere preparati senza glutine su richiesta (pane senza glutine +€1.50)</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">SMASH<span class="highlight">BURGER</span></span>
+                    <p>Treviso</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SmashBurger Treviso. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
