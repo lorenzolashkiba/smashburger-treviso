@@ -1264,11 +1264,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .menu-content {
-        padding: var(--spacing-md) 0 var(--spacing-xl);
+        padding: var(--spacing-sm) 0 var(--spacing-xl);
+    }
+
+    .menu-section {
+        scroll-margin-top: 120px;
     }
 
     .menu-section-header {
-        margin-bottom: var(--spacing-md);
+        margin-bottom: var(--spacing-sm);
     }
 
     .menu-section-title {
