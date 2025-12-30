@@ -1235,10 +1235,6 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 60px;
     }
 
-    .menu-hero {
-        padding: var(--spacing-md) 0;
-    }
-
     .menu-hero-title {
         font-size: 1.8rem;
         margin-bottom: 0.25rem;
