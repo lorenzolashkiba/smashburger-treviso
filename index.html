@@ -14,6 +14,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Noise Overlay for texture -->
+    <div class="noise-overlay"></div>
+
+    <!-- Floating Burger Icons Background -->
+    <div class="floating-icons">
+        <span class="floating-icon">🍔</span>
+        <span class="floating-icon">🔥</span>
+        <span class="floating-icon">🍔</span>
+        <span class="floating-icon">★</span>
+        <span class="floating-icon">🍔</span>
+        <span class="floating-icon">🔥</span>
+        <span class="floating-icon">★</span>
+        <span class="floating-icon">🍔</span>
+    </div>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+
+    <!-- Marquee Text Animation Top -->
+    <div class="marquee-strip marquee-strip-top">
+        <div class="marquee">
+            <span>SMASHBURGER TREVISO ★ CARNE 100% ITALIANA ★ SMASHATI AL MOMENTO ★ PANE BRIOCHE FRESCO ★ SMASHBURGER TREVISO ★ CARNE 100% ITALIANA ★ SMASHATI AL MOMENTO ★ PANE BRIOCHE FRESCO ★ </span>
+            <span>SMASHBURGER TREVISO ★ CARNE 100% ITALIANA ★ SMASHATI AL MOMENTO ★ PANE BRIOCHE FRESCO ★ SMASHBURGER TREVISO ★ CARNE 100% ITALIANA ★ SMASHATI AL MOMENTO ★ PANE BRIOCHE FRESCO ★ </span>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -36,16 +62,19 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero hero-split">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">SMASH<span class="highlight">BURGER</span></h1>
             <p class="hero-subtitle">TREVISO</p>
             <p class="hero-desc">Burger artigianali smashati al momento.<br>Carne 100% italiana. Sapore 100% autentico.</p>
             <div class="hero-buttons">
-                <a href="menu.html" class="btn btn-primary btn-lg">SCOPRI IL MENU</a>
+                <a href="menu.html" class="btn btn-primary btn-lg btn-pulse">SCOPRI IL MENU</a>
                 <a href="#contatti" class="btn btn-outline btn-lg">VIENI A TROVARCI</a>
             </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800" alt="Interno del locale SmashBurger">
         </div>
         <div class="hero-scroll">
             <span>Scorri</span>
@@ -57,12 +86,12 @@
     <section id="chi-siamo" class="section section-about">
         <div class="container">
             <div class="section-grid">
-                <div class="about-image">
+                <div class="about-image reveal-left">
                     <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/18/0e/8a/original-smash-burger.jpg?w=600&h=-1&s=1" alt="Smash Burger in preparazione" class="about-img">
                 </div>
-                <div class="about-content">
+                <div class="about-content reveal-right">
                     <span class="section-tag">CHI SIAMO</span>
-                    <h2 class="section-title">LA FILOSOFIA<br><span class="highlight">DELLO SMASH</span></h2>
+                    <h2 class="section-title glitch-hover">LA FILOSOFIA<br><span class="highlight">DELLO SMASH</span></h2>
                     <p>Niente burger gonfi e insapori. Da noi la carne viene <strong>smashata sulla piastra rovente</strong> creando quella crosticina caramellata che fa la differenza.</p>
                     <p>Siamo un piccolo locale nel cuore di Treviso con un'ossessione: il burger perfetto. Carne italiana selezionata, pane brioche sfornato ogni giorno, salse fatte in casa.</p>
                     <div class="features">
@@ -84,17 +113,25 @@
         </div>
     </section>
 
+    <!-- Marquee Divider -->
+    <div class="marquee-strip marquee-strip-section marquee-reverse">
+        <div class="marquee">
+            <span>★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ </span>
+            <span>★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ SMASHBURGER ★ TREVISO ★ BEST BURGERS IN TOWN ★ </span>
+        </div>
+    </div>
+
     <!-- Menu Preview -->
     <section class="section section-menu-preview">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center reveal">
                 <span class="section-tag">IL MENU</span>
-                <h2 class="section-title">I NOSTRI <span class="highlight">SMASH</span></h2>
+                <h2 class="section-title glitch-hover">I NOSTRI <span class="highlight">SMASH</span></h2>
                 <p class="section-desc">Burger smashati al momento, preparati con passione</p>
             </div>
 
             <div class="menu-preview-grid">
-                <div class="menu-card">
+                <div class="menu-card reveal">
                     <div class="menu-card-image">
                         <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" alt="Classic Smash Burger">
                     </div>
@@ -102,7 +139,7 @@
                     <p>Doppio smash, cheddar americano, cipolla caramellata, pickle, salsa segreta</p>
                     <span class="price">€9.50</span>
                 </div>
-                <div class="menu-card featured">
+                <div class="menu-card featured reveal">
                     <div class="badge">BEST SELLER</div>
                     <div class="menu-card-image">
                         <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400" alt="Bacon Smash Burger">
@@ -111,7 +148,7 @@
                     <p>Doppio smash, bacon croccante, cheddar, jalapeño, BBQ sauce</p>
                     <span class="price">€11.50</span>
                 </div>
-                <div class="menu-card">
+                <div class="menu-card reveal">
                     <div class="menu-card-image">
                         <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400" alt="Cheese Lover Burger">
                     </div>
@@ -130,10 +167,10 @@
     <!-- QR Code Section -->
     <section class="section section-qr">
         <div class="container">
-            <div class="qr-box">
+            <div class="qr-box reveal gradient-border">
                 <div class="qr-content">
                     <span class="section-tag">MENU DIGITALE</span>
-                    <h2 class="section-title">SCANSIONA<br><span class="highlight">& ORDINA</span></h2>
+                    <h2 class="section-title glitch-hover">SCANSIONA<br><span class="highlight">& ORDINA</span></h2>
                     <p>Inquadra il QR code al tavolo per vedere il menu completo direttamente sul tuo smartphone</p>
                 </div>
                 <div class="qr-image">
@@ -143,26 +180,34 @@
         </div>
     </section>
 
+    <!-- Marquee Divider Before Contact -->
+    <div class="marquee-strip marquee-strip-section">
+        <div class="marquee">
+            <span>🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 </span>
+            <span>🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 SMASH 🍔 GRILL 🍔 EAT 🍔 REPEAT 🍔 </span>
+        </div>
+    </div>
+
     <!-- Contatti -->
     <section id="contatti" class="section section-contact">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center reveal">
                 <span class="section-tag">CONTATTI</span>
-                <h2 class="section-title">VIENI A <span class="highlight">TROVARCI</span></h2>
+                <h2 class="section-title glitch-hover">VIENI A <span class="highlight">TROVARCI</span></h2>
             </div>
 
             <div class="contact-grid">
-                <div class="contact-card">
+                <div class="contact-card reveal">
                     <span class="contact-icon">📍</span>
                     <h3>DOVE SIAMO</h3>
                     <p>Via Roma, 42<br>31100 Treviso (TV)</p>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card reveal">
                     <span class="contact-icon">🕐</span>
                     <h3>ORARI</h3>
                     <p>Mar - Dom: 12:00 - 15:00<br>18:30 - 23:00<br><small>Lunedì chiuso</small></p>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card reveal">
                     <span class="contact-icon">📞</span>
                     <h3>CONTATTACI</h3>
                     <p>Tel: 0422 123456<br>info@smashburgertreviso.it</p>
